@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Service
+Icon=edit-cut-symbolic
+X-KDE-Priority=TopLevel
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/allfiles;inode/directory;
+Actions=MoveTo;
+Encoding=UTF-8
+
+
+[Desktop Action MoveTo]
+Name=Ultracopier Move To
+Icon=edit-cut-symbolic
+Exec=ultracopie mv %U `kdialog --getexistingdirectory ~/` 
