@@ -10,6 +10,7 @@ Encoding=UTF-8
 
 [Desktop Action CopyTo]
 Name=Ultracopier Copy To
+Name[nl]=Ultracopier - Kopiëren naar
 Icon=edit-copy-symbolic
 Exec=ultracopier cp %U `kdialog --getexistingdirectory ~/`
 

@@ -10,10 +10,12 @@ Encoding=UTF-8
 
 [Desktop Action CopyTo]
 Name=Copy To
+Name[nl]=Kopiëren naar
 Icon=edit-copy-symbolic
 Exec=ultracopier cp %U `kdialog --getexistingdirectory ~/`
 
 [Desktop Action MoveTo]
 Name=Move To
+Name[nl]=Verplaatsen naar
 Icon=edit-cut-symbolic
 Exec=ultracopie mv %U `kdialog --getexistingdirectory ~/` 
