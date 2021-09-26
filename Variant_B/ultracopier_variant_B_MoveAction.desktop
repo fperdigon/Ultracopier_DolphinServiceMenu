@@ -10,5 +10,6 @@ Encoding=UTF-8
 
 [Desktop Action MoveTo]
 Name=Ultracopier Move To
+Name[nl]=Ultracopier - Verplaatsen naar
 Icon=edit-cut-symbolic
 Exec=ultracopie mv %U `kdialog --getexistingdirectory ~/` 
